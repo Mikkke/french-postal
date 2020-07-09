@@ -1,0 +1,52 @@
+@import "./reset.scss";
+
+body {
+  background: #273746;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  .main-div {
+    min-height: 100vh;
+    h1 {
+      font-size: 4rem;
+      padding: 1rem;
+    }
+    input {
+      width: 15rem;
+      height: 2rem;
+      outline: none;
+      font-size: 1.2rem;
+      /*   &:focus {
+        border: 2px solid red;
+      } */
+    }
+  }
+}
+
+.main-div--input {
+  .container {
+    margin-top: 2rem;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    .main-div--render {
+      font-size: 1.3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 20rem;
+      height: 10rem;
+      overflow: hidden;
+      box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.2);
+      transition: transform 400ms;
+      &:hover,
+      &:active,
+      &:focus {
+        box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+      }
+    }
+  }
+}
