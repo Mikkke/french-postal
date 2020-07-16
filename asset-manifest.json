@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/french-postal/static/css/main.05145abf.chunk.css",
+    "main.js": "/french-postal/static/js/main.b3ed7d60.chunk.js",
+    "main.js.map": "/french-postal/static/js/main.b3ed7d60.chunk.js.map",
+    "runtime-main.js": "/french-postal/static/js/runtime-main.2fd727cb.js",
+    "runtime-main.js.map": "/french-postal/static/js/runtime-main.2fd727cb.js.map",
+    "static/js/2.eb3fc7a2.chunk.js": "/french-postal/static/js/2.eb3fc7a2.chunk.js",
+    "static/js/2.eb3fc7a2.chunk.js.map": "/french-postal/static/js/2.eb3fc7a2.chunk.js.map",
+    "index.html": "/french-postal/index.html",
+    "precache-manifest.f9ad72c4768bda8cef7ee7e667e300e6.js": "/french-postal/precache-manifest.f9ad72c4768bda8cef7ee7e667e300e6.js",
+    "service-worker.js": "/french-postal/service-worker.js",
+    "static/css/main.05145abf.chunk.css.map": "/french-postal/static/css/main.05145abf.chunk.css.map",
+    "static/js/2.eb3fc7a2.chunk.js.LICENSE.txt": "/french-postal/static/js/2.eb3fc7a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd727cb.js",
+    "static/js/2.eb3fc7a2.chunk.js",
+    "static/css/main.05145abf.chunk.css",
+    "static/js/main.b3ed7d60.chunk.js"
+  ]
+}
