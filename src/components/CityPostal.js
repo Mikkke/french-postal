@@ -11,11 +11,12 @@ const CityPostal = () => {
         .get(
           `https://geo.api.gouv.fr/communes?codePostal=${code}&fields=nom,code,codesPostaux,surface,codeRegion,population&format=json&geometry=centre`
         )
-        .then(res => {
+        .then((res) => {
           const data = res.data;
+          console.log("res.data :>> ", res.data);
           setCity(data);
         })
-        .catch(err => {
+        .catch((err) => {
           console.log("err :>> ", err);
         });
     }
@@ -24,8 +25,8 @@ const CityPostal = () => {
   return (
     <div className="main-div--input">
       <input
-        placeholder="code postal.."
-        onChange={e => {
+        placeholder="Code postal"
+        onChange={(e) => {
           setCode(e.target.value);
         }}
         type="text"
